@@ -19,7 +19,7 @@
 
 buildPythonPackage rec {
   pname = "langchain-aws";
-  version = "0.2.1";
+  version = "0.2.7";
   pyproject = true;
 
   src = fetchFromGitHub {
